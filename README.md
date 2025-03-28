@@ -14,7 +14,7 @@ This is a RESTful API for managing blogs, built using Java.
 
 - Java 21 _(Recomended)_ or later
 - Maven 3.9.9 or later
-- A database i.e., MySQL _(Recomended)_
+- A database (e.g., MySQL, PostgreSQL)
 
 ### Installation
 
