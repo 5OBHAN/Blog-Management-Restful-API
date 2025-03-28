@@ -29,9 +29,9 @@ This is a RESTful API for managing blogs, built using Java.
     > **Path:** src/main/resources/application.properties
     
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/{YOUR_DB}
-    spring.datasource.username={YOUR_USERNAME}
-    spring.datasource.password={YOUR_PASSWORD}
+    spring.datasource.url=jdbc:mysql://<HOST>:<PORT>/{YOUR_DB_NAME}
+    spring.datasource.username={YOUR_DB_USERNAME}
+    spring.datasource.password={YOUR_DB_PASSWORD}
     ```
 
 3. Build and run the application:
