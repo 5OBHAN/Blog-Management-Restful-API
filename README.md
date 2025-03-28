@@ -19,24 +19,26 @@ This is a RESTful API for managing blogs, built using Java.
 ### Installation
 
 1. Clone the repository:
+    
+    ```sh
+    git clone https://github.com/5OBHAN/Blog-Management-Restful-API.git && cd Blog-Management-Restful-API
+    ```
 
-```sh
-git clone https://github.com/5OBHAN/Blog-Management-Restful-API.git && cd Blog-Management-Restful-API
-```
-
-2. Configure the database connection in `application.properties`:
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/{YOUR_DB}
-spring.datasource.username={YOUR_USERNAME}
-spring.datasource.password={YOUR_PASSWORD}
-spring.jpa.hibernate.ddl-auto=update
-```
+2. Configure the database connection in _`application.properties`_:
+    
+    > **Path:** src/main/resources/application.properties
+    
+    ```properties
+    spring.datasource.url=jdbc:mysql://localhost:3306/{YOUR_DB}
+    spring.datasource.username={YOUR_USERNAME}
+    spring.datasource.password={YOUR_PASSWORD}
+    ```
 
 3. Build and run the application:
-```sh
-mvn clean install
-mvn spring-boot:run
-```
+    ```sh
+    mvn clean install
+    mvn spring-boot:run
+    ```
 
 ## API Endpoints
 
