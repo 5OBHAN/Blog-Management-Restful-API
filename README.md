@@ -1,4 +1,4 @@
-# Blog Management Restful API
+# Blog Management RESTful API
 
 This is a RESTful API for managing blogs, built using Java.
 
